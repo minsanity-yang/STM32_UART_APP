@@ -105,7 +105,7 @@ int main(void)
 	printf("hello stm32H7\r\n");
   printf("I like this!!\r\n");
 	printf("Start PWM\r\n");
-	printf("I am in APP mode !!!\r\n");\
+	printf("I am in APP mode !!!\r\n");
   printf("HELLO GitHub !!!\r\n");
 	HAL_TIM_Base_Start(&htim4);
   HAL_GPIO_WritePin(LED0_GPIO_Port,LED0_Pin,GPIO_PIN_RESET);
